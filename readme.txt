@@ -1,5 +1,7 @@
-Ok, so first off you need the "#!/usr/bin/env node" text in the index.js file. I know he said (and showed on the slide) you don't need it but you do.
-Next you need to run "npm link" in the terminal like he does. THEN you need to run "npm link list". This will generate a /node_modules folder inside your link directory.
+Ok, so first off you need the "#!/usr/bin/env node" text in the index.js file. I know he said (and showed on the slide)
+ you don't need it but you do.
+Next you need to run "npm link" in the terminal like he does. THEN you need to run "npm link list".
+This will generate a /node_modules folder inside your link directory.
 Then you need to go inside the /node_modules folder, then inside you will see a .bin folder. Copy the location of this folder.
 You have to include that .bin folder path to your system variables.
 Go to: Control Panel -> System -> Advanced System Settings -> Environment Variables.
